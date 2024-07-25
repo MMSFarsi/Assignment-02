@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* Shared Style */
+.text-center{
+    text-align: center;
+    
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.section-title{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.section-description{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+
+/* Shared Style Ended */
+
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+}
+nav{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 30px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   padding-left: 20px;
+   
+  
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 19px;
+}
+ /* Banner Styles */
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.banner-content{
+    max-width: 380px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+/* Habit Section */
+.card{
+    width: 250px;
+    text-align: center;
+}
+.habit-section{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.habit-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 70px;
+    
+    
+
+}
+.habit-container img{
+    border-radius: 50%;
+    border: 4px solid rgba(77, 75, 75, 0.384);
+}
+
+/* Run Section */
+.run-section{
+    margin: 20px 150px;
+}
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #747474;
+    border-radius: 20px;
+    padding: 30px;
+    height: 300px;
+}
+.run-container img{
+    width: 100%;
+   height: 100%;
+    border-radius: 20px;
+    background-position: cover;
+}
+.run-text{
+    width: 400px;
+    
+}
+.run-img{
+    width: 400px;
+}
+
+
+/* BMI Section */
+.bmi-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 150px;
+    gap: 10px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+.bmi-1st{
+    max-width: 300px;
+}
+.bmi-2nd{
+    width: 300;
+}
+#bm{
+    
+    background-color:  rgba(255, 255, 255, 0.1);
+    
+
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-spacing: 0;
+    padding: 10px;
+    border-collapse: collapse;
+
+    
+
+}
+th,td{
+    padding: 20px;
+    font-size: 13px;
+    margin-right: 10px;
+
+    
+}
+.bmi-subheading{
+    margin-bottom: 52px;
+    font-size: 1.75rem;
+}
+/* tr{
+    margin: 10px;
+} */
+
+
+input,select{
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: none;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+select{
+    width: 205px;
+}
+#select-special{
+    width: 420px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Team Section */
+.team-section{
+    margin: 20px 150px;
+  
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   justify-items: center;
+   
+   border-radius: 10px;
+  padding: 30px 0;
+   background-color: rgb(56, 52, 48);
+   
+    
+}
+.team-container img{
+    border-radius: 10px;
+    
+}
+.team-man{
+    max-width: 270px;
+   
+}
+.team-section img{
+    width: 100%;
+}
+
+
+
+/* Footer Section */
+footer{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+}
+.footer-title{
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+    
+}
+.footer-title i{
+    color: #E6533C ;
+    
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+.footer-link{
+    margin-bottom: 10px;
+    font-size: 1.35rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.link-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+hr{
+    width:80%; 
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+   
+}
+
+.credit{
+    padding: 30px 0;
+    
+    font-size: 1.25rem;
+}
+small{
+    color: rgba(255, 255, 255, 0.5);
+}
