@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 /* Shared Style */
 .text-center{
     text-align: center;
@@ -10,21 +11,39 @@
     padding: 0;
     color: white;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
 .section-title{
     font-size: 3rem;
     margin-bottom: 15px;
+    font-weight: 900;
 }
 .section-description{
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-bottom: 30px;
+    font-size: .8rem;
+    font-weight: 300;
+    line-height: 24px;
+letter-spacing: 0.5px;
+}
+.btn-primary{
+    padding: 12px 50px;
+    border-radius: 40px;
+    background-color: #E6533C;
+    border: none;
+}
+.btn-special{
+    background-color: transparent;
+    border: 1px solid white;
 }
 
 
 
 /* Shared Style Ended */
 
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 
 
 body{
@@ -38,21 +57,29 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+    padding: 57px 0 90px 0;
 }
 nav ul{
     display: flex;
     align-items: center;
-    border: 1px solid blue;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
    padding-top: 10px;
    padding-bottom:10px;
-   padding-left: 20px;
+   padding-left: 3px;
    
   
 }
+#selected{
+    background-color: #E6533C;
+    padding: 8px 18px;
+    border-radius: 45px;
+}
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 2.75rem;
+    font-style: italic;
+    color: #E6533C;
 }
 nav ul li{
     list-style: none;
@@ -69,11 +96,55 @@ nav li a{
     margin: 0 150px;
 }
 .banner-content{
-    max-width: 380px;
+    max-width: 550px;
 }
 .banner-title{
     font-size: 65px;
-    font-weight: bold;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 28px;
+    letter-spacing: 1px;
+}
+#shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 50;
+    font-size: 8rem;
+}
+.img-hover1,.img-hover2{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+
+position: absolute;
+}
+.img-hover1{
+    left: 764px;
+    top: 600px;
+    width: 180px;
+height: 80px;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+.img-hover2{
+    left: 1100px;
+    top:320px;
+    width: 193px;
+height: 98px;
+}
+.threefifty{
+    font-size: 24px;
+font-weight: 900;
+margin-bottom: 5px;
+
+}
+.fivehun{
+    font-size: 40px;
+font-weight: 900;
 }
 
 
@@ -107,7 +178,7 @@ nav li a{
 .run-container{
     display: flex;
     justify-content: space-between;
-    background-color: #747474;
+    background-color: rgba(34, 34, 34, 1);
     border-radius: 20px;
     padding: 30px;
     height: 300px;
@@ -117,6 +188,9 @@ nav li a{
    height: 100%;
     border-radius: 20px;
     background-position: cover;
+}
+.run-container .section-description{
+    margin-bottom: 34px;
 }
 .run-text{
     width: 400px;
