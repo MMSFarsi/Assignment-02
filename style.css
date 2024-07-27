@@ -44,7 +44,9 @@
     background-color: transparent;
     border: 1px solid white;
 }
-
+.none{
+    display: none;
+}
 
 
 /* Shared Style Ended */
@@ -116,7 +118,7 @@ nav li a {
 }
 
 .banner-title {
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: 900;
     line-height: 80px;
     margin-bottom: 28px;
@@ -145,14 +147,6 @@ nav li a {
     width: 180px;
     height: 80px;
 }
-
-.circle {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
-    border-radius: 50%;
-}
-
 .img-hover2 {
     left: 1100px;
     top: 320px;
@@ -478,4 +472,69 @@ hr {
 
 small {
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width:576px) {
+
+
+    .nav-items{
+        display: none;
+    }
+    nav{
+        margin: 0 20px;
+      
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+   
+    .img-hover1,.img-hover2{
+      
+    }
+    .btn-primary {
+        padding: 15px 40px; 
+        margin-left: 20px;
+    }
+    .btn-special{
+        padding: 15px 40px; 
+
+    }
+    .banner-content{
+        margin-bottom: 55px;
+    }
+    .banner-title{
+        font-size: 3rem;
+     
+    font-weight: 900;
+    line-height:;
+    margin-bottom: 28px;
+    letter-spacing: -1;
+    width: 300px;
+  
+    }
+    .banner-content .section-description{
+        width: 300px;
+    }
+    #shape {
+        font-family: 'Miama', sans-serif;
+        font-weight: 50;
+        font-size: 6rem;
+    }
+    .banner-profile-pic{
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .img-hover1 {
+        left: 2px;
+        top: 950px;
+    
+    }
+    .img-hover2 {
+        left: 270px;
+        top: 680px;
+    }
 }
