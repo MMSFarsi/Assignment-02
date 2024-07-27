@@ -493,11 +493,11 @@ small {
       
     }
     .btn-primary {
-        padding: 15px 40px; 
-        margin-left: 20px;
+        padding: 15px 30px; 
+        margin-left: 10px;
     }
     .btn-special{
-        padding: 15px 40px; 
+        padding: 15px 30px; 
 
     }
     .banner-content{
@@ -534,7 +534,9 @@ small {
     
     }
     .img-hover2 {
-        left: 270px;
-        top: 680px;
+        left: 240px;
+        top: 760px;
+        width: 150px;
+        
     }
 }
