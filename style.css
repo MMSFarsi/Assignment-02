@@ -216,8 +216,7 @@ nav li a {
     background-color: rgba(34, 34, 34, 1);
     border-radius: 20px;
     padding: 30px;
-    width: 1060px;
-    height: 371px;
+    
 }
 
 .run-container img {
@@ -484,9 +483,10 @@ small {
         margin: 0 20px;
       
     }
-    .banner{
+    .banner,.habit-container{
         flex-direction: column;
         margin: 0px 20px;
+        align-items: center;
     }
    
     .img-hover1,.img-hover2{
@@ -538,5 +538,41 @@ small {
         top: 760px;
         width: 150px;
         
+    }
+    .run-section {
+        margin: 0px 20px;
+        margin-bottom: 100px;
+    
+    }
+
+    .run-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .run-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        background-position: cover;
+    }
+    .run-img{
+        width: 285px;
+        height: 170px;
+        margin-top: 20px;
+    }
+    .run-text .section-title{
+        font-size: 2rem;
+    }
+    .run-text .section-description{
+        text-align: justify;
+    }
+
+    .run-text {
+        width: 273px;
+    
+    }
+    .run-container .btn-primary{
+        padding: 15px 90px; 
+        margin-left: 10px;
     }
 }
