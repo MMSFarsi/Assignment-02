@@ -361,8 +361,6 @@ select {
     padding: 20px;
     background-color: rgb(56, 52, 48);
     border-radius: 10px;
-   
-
 }
 
 .profile {
@@ -560,7 +558,7 @@ small {
         height: 170px;
         margin-top: 20px;
     }
-    .run-text .section-title{
+    .section-title{
         font-size: 2rem;
     }
     .run-text .section-description{
@@ -575,4 +573,64 @@ small {
         padding: 15px 90px; 
         margin-left: 10px;
     }
+
+    .bmi-container {
+      flex-direction: column;
+        margin: 0px 20px;
+        gap: 10px;
+        margin-top: -40px;
+       
+    }
+    .bmi-textbox{
+        width: 350px;
+    }
+    #select-special {
+        width: 300px;
+    }
+    .bmi-heading{
+font-size: 2rem;
+margin-bottom: 10px;
+    }
+    .bmi-subheading{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    input,
+select {
+    width: 170px;
+    margin: 5px;
+}
+
+#select-special {
+  width: 350px;
+}
+.bmi-container .btn-primary{
+    padding: 15px 60px; 
+    margin-top: 10px;
+    
+}
+.container {
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 20px;
+    padding: 20px;
+    background-color: rgb(56, 52, 48);
+    border-radius: 10px; */
+}
+.team-section {
+    margin: 0px 20px;
+    padding-bottom: 50px;
+}
+.footer-container {
+    flex-direction: column;
+    margin: 0px 20px;
+  
+
+
+}
+.footer-container .section-description{
+    text-align: justify;
+    font-size: 16px;
+    width: 315px;
+}
 }
